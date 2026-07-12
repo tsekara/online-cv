@@ -4,283 +4,236 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Dr. Thileepan Sekaran
+  tagline: Senior Bioinformatics Scientist
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: thileepan.sekaran@gmail.com
+  phone: +49 176 6233 7969
+  timezone: Europe/Berlin
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  website:
+  linkedin: thileepan-sekaran-phd-35350b55
+  xing:
+  github: tsekara
+  telegram:
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
     title: Languages
     info:
     - idiom: English
+      level: Fluent
+
+    - idiom: German
+      level: B1
+
+    - idiom: Tamil
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Data visualization
       link:
 
-
-    - item: Snowboarding
+    - item: Scientific writing & publication
       link:
 
-
-    - item: Cooking
+    - item: Science documentaries
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Senior Bioinformatics Scientist with **15+ years** of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across **35+ research projects**. Core expertise spans RNA biology, post-transcriptional regulation, and RNA-protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.
+
+    Developed TransRefiner, a tool for refining *de novo* transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined **40+ citations**, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight. Co-authored **13 peer-reviewed publications** in Nature Communications, Molecular Cell, and Nucleic Acids Research.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: PhD in Biology
+    university: University of Münster, Germany
+    time: 2014 - 2018
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      Core PhD methodology: developed TransRefiner, a computational tool integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes.
+  - degree: MSc in Life Science Informatics
+    university: University of Bonn, Germany
+    time: 2009 - 2012
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: B.Tech. in Bioinformatics
+    university: Sathyabama University, India
+    time: 2004 - 2008
+    details: |
 
 experiences:
-  title: Experiences
+  title: Professional Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior Bioinformatics Scientist
+    time: 2018 - Present
+    company: EMBL, Heidelberg, Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Designed and deployed Snakemake/Nextflow workflows for 35+ projects spanning RNA-seq, Ribo-seq, eCLIP, RIP-seq, and SLAM-seq, reducing multi-day HPC runtimes and standardising reproducible analysis across the institute.
+        - Worked as an individual or team player on projects from study design through publication, collaborating directly with wet-lab PIs, postdocs, and PhD students to ensure analysis-ready experimental outputs.
+        - Integrated transcriptomic, translatomic, eRIC and proteomic datasets into unified multi-omics analyses, translating complex data into mechanistic biological insight that directly informed experimental follow-up.
+        - Built QC, alignment (STAR), quantification (featureCounts), and downstream statistical pipelines (DESeq2/ggplot2), delivering publication-ready results across diverse sequencing modalities.
+        - Applied and validated specialised RBP analysis tools (htseq-clip, DEWseq) on eCLIP datasets, contributing real-data testing and feedback that informed tool development as second author on two methods papers.
+        - Co-tutored PhD students on bioinformatics methods and analysis strategy, in EMBL and MPI training workshops, teaching sequencing data analysis to students, staff scientists and visiting researchers.
+        - Contributed analytical work underpinning 13 peer-reviewed publications, including in Nature Communications, Molecular Cell, Nucleic Acids Research, and Bioinformatics.
+  - role: Doctoral Researcher
+    time: 2014 - 2018
+    company: Max Planck Institute for Molecular Biomedicine, Münster, Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
+      Independently developed TransRefiner, a novel computational tool combining RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies, improving transcript reconstruction accuracy in non-model organisms beyond standard single-assay approaches.
+        - Conducted large-scale sequencing data analyses supporting doctoral research and collaborative projects across the institute.
+  - role: Scientific Co-worker
     time: 2012 - 2014
-    company: Amazon, London
+    company: Institute of Reconstructive Neurobiology, Bonn, Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Built comparative analysis pipelines for multi-platform microarray datasets, enabling consistent cross-platform comparisons and robust cross-study validation.
 
 certifications:
-  title: Certifications
+  title: Professional Training
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Introduction to Metabolomics
+    start: 2023
+    end: 2023
+    organization: EMBL-EBI
+    credentialid:
+    credentialurl:
+    credentialname:
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+  - name: Analysis of High-Throughput Sequencing Data
+    start: 2014
+    end: 2014
+    organization: EMBL-EBI
+    credentialid:
+    credentialurl:
+    credentialname:
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
+  title: Key Project Highlights
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Selected project highlights from my work at EMBL and MPI Münster.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
+  - title: RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "EMBL, 2022-2024 — Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma. Published in Nature Communications (2024)."
 
-  - title: Tempo
+  - title: "ATP5A RNA Targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "EMBL, 2023-2024 — Designed and executed the full bioinformatics analysis pipeline to uncover targets and sequence motifs in the 5' and 3' UTRs of ATP5A. Manuscript on bioRxiv (2024)."
 
-  - title: Atom
+  - title: "DEWseq & htseq-clip | eCLIP/iCLIP Analysis Toolset"
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: "EMBL, 2019-2021 — Validated DEWseq and htseq-clip on real biological datasets; both tools published on Bioconductor/PyPI with 40+ citations and 10,000+ downloads."
 
-  - title: Delta
+  - title: "TransRefiner | de novo Transcriptome Refinement Tool"
     link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "MPI Münster, 2014-2018 — Independently designed and developed TransRefiner, integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms."
 
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
+  title: Selected Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Full publication list available on request (13 peer-reviewed articles).
   papers:
-  - title: The Art of Computer Programming
+  - title: "Nucleic Acids Research (2026)"
     link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    authors: "Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T."
+    conference: "2026"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  - title: "RBP mechanisms in osteosarcoma — Nature Communications (2024)"
     link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    authors: "Zhou Y. et al., Sekaran T. et al."
+    conference: "2024"
 
-  - title: A syntax directed compiler for Algol 60
+  - title: "DEWseq package publication — Bioinformatics (2023)"
     link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    authors: "Sahadevan S., Sekaran T. et al."
+    conference: "2023"
+
+  - title: "Molecular Cell (2022)"
+    link: "#"
+    authors: "Huppertz I. et al., Sekaran T. et al."
+    conference: "2022"
 
 recommendations:
-  title: Recommendations
+  title: Awards & Fellowships
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Distinguished Alumni Award
+    email:
+    phone:
+    role: Sathyabama University
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+      2021
+  - person: Max Planck Institute Fellowship
+    email:
+    phone:
+    role: MPI Münster
     recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      2014 - 2018
+  - person: Train-Gain Fellowship
+    email:
+    phone:
+    role: University of Münster
+    recommendation: |
+      2014
+  - person: DBT Student Stipend
+    email:
+    phone:
+    role: Ministry of Science and Technology, India
+    recommendation: |
+      2007 - 2008
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: R / Bioconductor (DESeq2, ggplot2)
     level: 95%
 
-  - name: Ruby on Rails
+  - name: Python & Bash
+    level: 90%
+
+  - name: Snakemake & Nextflow (pipelines)
+    level: 95%
+
+  - name: NGS Tools (STAR, featureCounts, Salmon, samtools, bedtools)
+    level: 90%
+
+  - name: eCLIP/iCLIP Tools (htseq-clip, PureCLIP, DEWseq)
+    level: 95%
+
+  - name: Docker, Singularity, Git/CI-CD
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: HPC (SLURM) & Conda/Mamba
+    level: 90%
+
+  - name: Multi-Omics (RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, proteomics)
+    level: 95%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
