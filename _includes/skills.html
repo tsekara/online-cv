@@ -9,9 +9,9 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
+  <div class="skills-grid">
     {% for category in skills.categories %}
-    <div class="item">
+    <div class="skill-card">
       <h3 class="level-title">{{ category.heading }}</h3>
       <ul class="resume-list">
         {% for entry in category.items %}
