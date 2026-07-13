@@ -9,16 +9,12 @@
     {{ recommendations.title }}
   </h2>
 
-  {% for recommendation in recommendations.list %}
   <div class="item">
-    <div class="award-line">
-      <h3 class="recommendation-person">{{ recommendation.person }}</h3>
-      {% if recommendation.year %}
-      <span class="award-year">{{ recommendation.year }}</span>
-      {% endif %}
-    </div>
-    <p><strong>{{ recommendation.role }}</strong></p>
+    <ul class="awards-list">
+      {% for award in recommendations.bullets %}
+      <li>{{ award }}</li>
+      {% endfor %}
+    </ul>
   </div>
-  {% endfor %}
 </section>
 {% endif %}
