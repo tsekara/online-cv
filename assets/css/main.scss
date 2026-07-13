@@ -4,7 +4,6 @@
 
 @charset "utf-8";
 
-
 // define variable with front matter
 {% if site.data.data.sidebar.position == 'left' %}
 $resume-order: 2;
@@ -17,47 +16,30 @@ $sidebar-order: 2;
 @import "skins/{{ site.theme_skin | default: 'ceramic' }}"; // skin
 @import "default"; // main partials
 
-.recommendations-section .award-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  width: 100%;
-}
-
-.recommendations-section .recommendation-person {
+.skills-section .item,
+.recommendations-section .item,
+.publications-section .item {
   margin-bottom: 0;
+  padding-left: 0;
 }
 
-.recommendations-section .award-year {
-  white-space: nowrap;
-  font-weight: 500;
-  color: #666;
+.skills-section .section-title,
+.recommendations-section .section-title,
+.publications-section .section-title {
+  margin-bottom: 15px;
 }
 
-.recommendations-section .item p {
-  margin-top: 4px;
-  margin-bottom: 0;
-}
-@media (max-width: 767px) {
-  .recommendations-section .award-line {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-  }
-
-  .recommendations-section .award-year {
-    white-space: normal;
-  }
-}
-
-.recommendations-section .awards-list {
+.skills-section .core-skills-list,
+.recommendations-section .awards-list,
+.publications-section ul {
   margin: 0;
-  padding-left: 20px;
+  padding-left: 16px;
   max-width: 100%;
 }
 
-.recommendations-section .awards-list li {
+.skills-section .core-skills-list li,
+.recommendations-section .awards-list li,
+.publications-section li {
   margin-bottom: 8px;
   line-height: 1.6;
   text-align: left;
@@ -67,27 +49,12 @@ $sidebar-order: 2;
 }
 
 .skills-section .item,
-.recommendations-section .item {
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
+.recommendations-section .item,
+.publications-section .item,
 .skills-section ul,
-.recommendations-section ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 18px;
-}
-
-.skills-section .core-skills-list li,
-.recommendations-section .awards-list li {
-  margin-bottom: 8px;
-  line-height: 1.6;
-}
-
-.skills-section,
-.recommendations-section {
-  .section-title {
-    margin-bottom: 15px;
-  }
+.recommendations-section ul,
+.publications-section ul {
+  width: 100%;
+  float: none;
+  display: block;
 }
