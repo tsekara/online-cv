@@ -9,16 +9,16 @@ sidebar:
 
   # Profile information
   name: Dr. Thileepan Sekaran
-  tagline: Senior Bioinformatics Scientist
+  tagline: Senior Bioinformatics Scientist, Director research group
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: thileepan.sekaran@gmail.com
-  phone: "+49 176 6233 7969"
+  phone: "+4917662337969"
   timezone: Europe/Berlin
   citizenship:
   website:
-  linkedin: thileepan-sekaran-phd-35350b55
+  linkedin: sekaranT
   xing:
   github: tsekara
   telegram:
@@ -49,7 +49,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior Bioinformatics Scientist with **15+ years** of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across **35+ research projects**. Core expertise spans RNA biology, post-transcriptional regulation, and RNA-protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.
+    Senior Bioinformatics Scientist with **15+ years** of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across **35+ research projects**. Core expertise spans RNA biology, post-transcriptional regulation, and RNA–protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.
 
     Developed TransRefiner, a tool for refining *de novo* transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined **40+ citations**, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight. Co-authored **13 peer-reviewed publications** in Nature Communications, Molecular Cell, and Nucleic Acids Research.
 
@@ -58,21 +58,19 @@ education:
   info:
     - degree: PhD in Biology
       university: University of Münster, Germany
-      time: 2014 - 2018
-      details: |
-        Core PhD methodology: developed TransRefiner, a computational tool integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes.
+      time: 2014 – 2018
     - degree: MSc in Life Science Informatics
       university: University of Bonn, Germany
-      time: 2009 - 2012
+      time: 2009 – 2012
     - degree: B.Tech. in Bioinformatics
       university: Sathyabama University, India
-      time: 2004 - 2008
+      time: 2004 – 2008
 
 experiences:
   title: Professional Experience
   info:
     - role: Senior Bioinformatics Scientist
-      time: 2018 - Present
+      time: 2018 – Present
       company: EMBL, Heidelberg, Germany
       details: |
         - Designed and deployed Snakemake/Nextflow workflows for 35+ projects spanning RNA-seq, Ribo-seq, eCLIP, RIP-seq, and SLAM-seq, reducing multi-day HPC runtimes and standardising reproducible analysis across the institute.
@@ -83,13 +81,13 @@ experiences:
         - Co-tutored PhD students on bioinformatics methods and analysis strategy, in EMBL and MPI training workshops, teaching sequencing data analysis to students, staff scientists and visiting researchers.
         - Contributed analytical work underpinning 13 peer-reviewed publications, including in Nature Communications, Molecular Cell, Nucleic Acids Research, and Bioinformatics.
     - role: Doctoral Researcher
-      time: 2014 - 2018
+      time: 2014 – 2018
       company: Max Planck Institute for Molecular Biomedicine, Münster, Germany
       details: |
         - Independently developed TransRefiner, a novel computational tool combining RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies, improving transcript reconstruction accuracy in non-model organisms beyond standard single-assay approaches.
         - Conducted large-scale sequencing data analyses supporting doctoral research and collaborative projects across the institute.
     - role: Scientific Co-worker
-      time: 2012 - 2014
+      time: 2012 – 2014
       company: Institute of Reconstructive Neurobiology, Bonn, Germany
       details: |
         - Built comparative analysis pipelines for multi-platform microarray datasets, enabling consistent cross-platform comparisons and robust cross-study validation.
@@ -108,46 +106,40 @@ certifications:
 
 projects:
   title: Key Project Highlights
-  intro: >
-    Selected project highlights from my work at EMBL and MPI Münster.
   assignments:
     - title: RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration
       link: "#"
-      tagline: "EMBL, 2022-2024 — Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma. Published in Nature Communications (2024)."
+      tagline: "EMBL, 2022–2024 — Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma, providing direct insight into potential therapeutic targets. Analysis published in Nature Communications (2024); work demonstrates direct translational relevance to oncology drug discovery."
 
-    - title: "ATP5A RNA Targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
+    - title: "ATP5A RNA targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
       link: "#"
-      tagline: "EMBL, 2023-2024 — Designed and executed the full bioinformatics analysis pipeline to uncover targets and sequence motifs in the 5' and 3' UTRs of ATP5A. Manuscript on bioRxiv (2024)."
+      tagline: "EMBL, 2023–2024 — Designed and executed the full bioinformatics analysis pipeline to uncover the targets and their sequence motifs in the 5’ and 3’ UTRs of ATP5A, a gene implicated in mitochondrial function and cellular energy metabolism. Manuscript available on bioRxiv (2024); sole computational contributor, from raw data processing through motif discovery and figure generation."
 
     - title: "DEWseq & htseq-clip | eCLIP/iCLIP Analysis Toolset"
       link: "#"
-      tagline: "EMBL, 2019-2021 — Validated DEWseq and htseq-clip on real biological datasets; both tools published on Bioconductor/PyPI with 40+ citations and 10,000+ downloads."
+      tagline: "EMBL, 2019–2021 — Validated DEWseq (sliding-window RBP target prediction) and htseq-clip (eCLIP/iCLIP preprocessing toolset) on real biological datasets, with testing and feedback that directly shaped the tools’ final design. Both tools are published on Bioconductor/PyPI with a combined 40+ citations and 10,000+ downloads, reflecting strong adoption across the RNA biology community."
 
     - title: "TransRefiner | de novo Transcriptome Refinement Tool"
       link: "#"
-      tagline: "MPI Münster, 2014-2018 — Independently designed and developed TransRefiner, integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms."
+      tagline: "MPI Münster, 2014–2018 — Independently designed and developed TransRefiner, a computational tool that integrates RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes. Core methodology of PhD thesis; improved transcript reconstruction accuracy over standard single-assay assembly approaches."
 
 publications:
   title: Selected Publications
   papers:
-    - title: "Nucleic Acids Research (2026)"
+    - title: "Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T. (2026). Nucleic Acids Research."
       link: "#"
-      authors: "Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T."
       conference: "2026"
 
-    - title: "RBP mechanisms in osteosarcoma — Nature Communications (2024)"
+    - title: "Zhou Y. et al., Sekaran T. et al. (2024). Nature Communications. — RBP mechanisms in osteosarcoma."
       link: "#"
-      authors: "Zhou Y. et al., Sekaran T. et al."
       conference: "2024"
 
-    - title: "DEWseq package publication — Bioinformatics (2023)"
+    - title: "Sahadevan S., Sekaran T. et al. (2023). Bioinformatics. — DEWseq package publication."
       link: "#"
-      authors: "Sahadevan S., Sekaran T. et al."
       conference: "2023"
 
-    - title: "Molecular Cell (2022)"
+    - title: "Huppertz I. et al., Sekaran T. et al. (2022). Molecular Cell."
       link: "#"
-      authors: "Huppertz I. et al., Sekaran T. et al."
       conference: "2022"
 
 publications_footer:
@@ -162,29 +154,29 @@ recommendations:
       year: "2021"
     - person: Max Planck Institute Fellowship
       role: MPI Münster
-      year: "2014 - 2018"
+      year: "2014 – 2018"
     - person: Train-Gain Fellowship
       role: University of Münster
       year: "2014"
     - person: DBT Student Stipend
       role: Ministry of Science and Technology, India
-      year: "2007 - 2008"
+      year: "2007 – 2008"
 
 skills:
   title: Core Competencies
   toolset:
-    - name: Programming & Tools
+    - name: Programming & computational tools
       level: R/Bioconductor, Python, Bash, DESeq2, ggplot2
-    - name: NGS Analysis
+    - name: NGS Tools
       level: STAR, featureCounts, Salmon, samtools, bedtools, htseq-clip, PureCLIP
-    - name: Pipeline Engineering
+    - name: Bioinformatics Pipeline Engineering
       level: Snakemake, Nextflow, Docker, Singularity, Git, CI/CD
-    - name: Environment & HPC
-      level: SLURM (Linux), Conda / Mamba
-    - name: Multi-Omics Modalities
+    - name: HPC & environment managers
+      level: SLURM(Linux), Conda/Mamba
+    - name: Multi-Omics
       level: RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, proteomics, eRIC, metabolomics
-    - name: Collaboration & Mentoring
-      level: Cross-functional wet-lab partnership, experimental design, student tutoring
+    - name: Scientific collaboration
+      level: Cross-functional partnership with wet-lab scientists; experimental design consultation; workshop tutoring and student mentoring
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
