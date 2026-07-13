@@ -50,3 +50,19 @@ $sidebar-order: 2;
     white-space: normal;
   }
 }
+
+.recommendations-section .awards-list {
+  margin: 0;
+  padding-left: 20px;
+  max-width: 100%;
+}
+
+.recommendations-section .awards-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  text-align: left;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
