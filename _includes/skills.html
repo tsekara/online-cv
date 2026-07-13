@@ -11,8 +11,10 @@
 
   <div class="item">
     <ul class="core-skills-list">
-      {% for skill in skills.bullets %}
-      <li>{{ skill }}</li>
+      {% for skill in skills.list %}
+      <li>
+        <strong>{{ skill.category }}:</strong> {{ skill.details }}
+      </li>
       {% endfor %}
     </ul>
   </div>
