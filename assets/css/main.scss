@@ -1,47 +1,39 @@
----
-
----
-
-@charset "utf-8";
-
-// define variable with front matter
-{% if site.data.data.sidebar.position == 'left' %}
-$resume-order: 2;
-$sidebar-order: 1;
-{% else %}
-$resume-order: 1;
-$sidebar-order: 2;
-{% endif %}
-
-@import "skins/{{ site.theme_skin | default: 'ceramic' }}"; // skin
-@import "default"; // main partials
-
 .skills-section .item,
+.projects-section .item,
 .recommendations-section .item,
 .publications-section .item {
-  margin-bottom: 0;
-  padding-left: 0;
+  width: 100%;
+  float: none;
+  display: block;
 }
 
 .skills-section .section-title,
+.projects-section .section-title,
 .recommendations-section .section-title,
+.certifications-section .section-title,
 .publications-section .section-title {
   margin-bottom: 15px;
 }
 
-.skills-section .core-skills-list,
+.projects-section .project-details ul,
+.skills-section .resume-list,
 .recommendations-section .awards-list,
+.certifications-section .details ul,
+.experiences-section .details ul,
 .publications-section ul {
   margin: 0;
-  padding-left: 16px;
+  padding-left: 1.2rem;
   max-width: 100%;
 }
 
-.skills-section .core-skills-list li,
+.projects-section .project-details li,
+.skills-section .resume-list li,
 .recommendations-section .awards-list li,
+.certifications-section .details li,
+.experiences-section .details li,
 .publications-section li {
-  margin-bottom: 8px;
-  line-height: 1.6;
+  margin-bottom: 0.35rem;
+  line-height: 1.5;
   text-align: left;
   white-space: normal;
   word-break: normal;
@@ -49,19 +41,16 @@ $sidebar-order: 2;
 }
 
 .skills-section .item,
-.recommendations-section .item,
-.publications-section .item,
-.skills-section ul,
-.recommendations-section ul,
-.publications-section ul {
-  width: 100%;
-  float: none;
-  display: block;
-}
-
-
 .projects-section .item {
   margin-bottom: 1.5rem;
+}
+
+.skills-section .level-title {
+  margin-bottom: 0.45rem;
+}
+
+.skills-section .resume-list {
+  margin-top: 0;
 }
 
 .projects-section .project-header {
@@ -78,13 +67,4 @@ $sidebar-order: 2;
   color: #666;
   font-style: italic;
   margin-top: 0.15rem;
-}
-
-.projects-section .project-details ul {
-  margin: 0;
-  padding-left: 1.2rem;
-}
-
-.projects-section .project-details li {
-  margin-bottom: 0.35rem;
 }
