@@ -129,8 +129,6 @@ projects:
 
 publications:
   title: Selected Publications
-  intro: |
-    Full publication list available on request (13 peer-reviewed articles).
   papers:
     - title: "Nucleic Acids Research (2026)"
       link: "#"
@@ -152,25 +150,25 @@ publications:
       authors: "Huppertz I. et al., Sekaran T. et al."
       conference: "2022"
 
+publications_footer:
+  text: |
+    Full publication list available on request (13 peer-reviewed articles).
+
 recommendations:
   title: Awards & Fellowships
   list:
     - person: Distinguished Alumni Award
       role: Sathyabama University
-      recommendation: |
-        2021
+      year: "2021"
     - person: Max Planck Institute Fellowship
       role: MPI Münster
-      recommendation: |
-        2014 - 2018
+      year: "2014 - 2018"
     - person: Train-Gain Fellowship
       role: University of Münster
-      recommendation: |
-        2014
+      year: "2014"
     - person: DBT Student Stipend
       role: Ministry of Science and Technology, India
-      recommendation: |
-        2007 - 2008
+      year: "2007 - 2008"
 
 skills:
   title: Core Competencies
