@@ -118,7 +118,7 @@ projects:
 
     - title: "ATP5A RNA targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
       tagline: "EMBL, 2023–2024"
-      link: "https://www.biorxiv.org/content/10.1101/2023.12.11.571136v1.full"
+      link: "https://www.biorxiv.org/content/10.1101/2024.08.19.608659v1"
       details: |
         - Designed and executed the full bioinformatics analysis pipeline to uncover the targets and their sequence motifs in the 5’ and 3’ UTRs of ATP5A, a gene implicated in mitochondrial function and cellular energy metabolism.
         - Manuscript available on bioRxiv (2024); sole computational contributor, from raw data processing through motif discovery and figure generation.
