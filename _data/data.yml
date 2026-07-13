@@ -164,13 +164,24 @@ recommendations:
 
 skills:
   title: Core Competencies
-  bullets:
-    - RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, transcriptomics, proteomics, eRIC and metabolomics
-    - R/Bioconductor, Python, Bash, DESeq2, ggplot2, statistical genomics
-    - STAR, featureCounts, Salmon, samtools, bedtools, htseq-clip, PureCLIP
-    - Snakemake, Nextflow, Docker, Singularity, Git, CI-oriented workflow development
-    - SLURM, Linux, Conda, Mamba, HPC environments
-    - Cross-functional collaboration with wet-lab scientists, mentoring, workshop tutoring, experimental design consultation
+  list:
+    - category: Programming & computational tools
+      details: R/Bioconductor, Python, Bash, DESeq2, ggplot2
+
+    - category: NGS Tools
+      details: STAR, featureCounts, Salmon, samtools, bedtools, htseq-clip, PureCLIP
+
+    - category: Bioinformatics Pipeline Engineering
+      details: Snakemake, Nextflow, Docker, Singularity, Git, CI/CD
+
+    - category: HPC & environment managers
+      details: SLURM (Linux), Conda/Mamba
+
+    - category: Multi-Omics
+      details: RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, proteomics, eRIC, metabolomics
+
+    - category: Scientific collaboration
+      details: Cross-functional partnership with wet-lab scientists; experimental design consultation; workshop tutoring and student mentoring
 
 
 footer: >
