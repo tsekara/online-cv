@@ -6,16 +6,11 @@
   </h2>
 
   <div class="skillset">
-    {% for category in site.data.data.skills.categories %}
-    <div class="item">
-      <h3 class="level-title">{{ category.heading }}</h3>
-      <ul class="resume-list">
-        {% for entry in category.items %}
-        <li>{{ entry }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endfor %}
+    <ul class="resume-bullets">
+      {% for item in site.data.data.skills.bullets %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 {% endif %}
