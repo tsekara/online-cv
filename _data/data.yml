@@ -14,7 +14,7 @@ sidebar:
 
   # Sidebar links
   email: thileepan.sekaran@gmail.com
-  phone: +49 176 6233 7969
+  phone: "+49 176 6233 7969"
   timezone: Europe/Berlin
   citizenship:
   website:
@@ -37,15 +37,14 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Fluent
+      - idiom: English
+        level: Fluent
 
-    - idiom: German
-      level: B1
+      - idiom: German
+        level: B1
 
-    - idiom: Tamil
-      level: Native
-
+      - idiom: Tamil
+        level: Native
 
 career-profile:
   title: Career Profile
@@ -57,27 +56,25 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: PhD in Biology
-    university: University of Münster, Germany
-    time: 2014 - 2018
-    details: |
-      Core PhD methodology: developed TransRefiner, a computational tool integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes.
-  - degree: MSc in Life Science Informatics
-    university: University of Bonn, Germany
-    time: 2009 - 2012
-    details: |
-  - degree: B.Tech. in Bioinformatics
-    university: Sathyabama University, India
-    time: 2004 - 2008
-    details: |
+    - degree: PhD in Biology
+      university: University of Münster, Germany
+      time: 2014 - 2018
+      details: |
+        Core PhD methodology: developed TransRefiner, a computational tool integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes.
+    - degree: MSc in Life Science Informatics
+      university: University of Bonn, Germany
+      time: 2009 - 2012
+    - degree: B.Tech. in Bioinformatics
+      university: Sathyabama University, India
+      time: 2004 - 2008
 
 experiences:
   title: Professional Experience
   info:
-  - role: Senior Bioinformatics Scientist
-    time: 2018 - Present
-    company: EMBL, Heidelberg, Germany
-    details: |
+    - role: Senior Bioinformatics Scientist
+      time: 2018 - Present
+      company: EMBL, Heidelberg, Germany
+      details: |
         - Designed and deployed Snakemake/Nextflow workflows for 35+ projects spanning RNA-seq, Ribo-seq, eCLIP, RIP-seq, and SLAM-seq, reducing multi-day HPC runtimes and standardising reproducible analysis across the institute.
         - Worked as an individual or team player on projects from study design through publication, collaborating directly with wet-lab PIs, postdocs, and PhD students to ensure analysis-ready experimental outputs.
         - Integrated transcriptomic, translatomic, eRIC and proteomic datasets into unified multi-omics analyses, translating complex data into mechanistic biological insight that directly informed experimental follow-up.
@@ -85,116 +82,98 @@ experiences:
         - Applied and validated specialised RBP analysis tools (htseq-clip, DEWseq) on eCLIP datasets, contributing real-data testing and feedback that informed tool development as second author on two methods papers.
         - Co-tutored PhD students on bioinformatics methods and analysis strategy, in EMBL and MPI training workshops, teaching sequencing data analysis to students, staff scientists and visiting researchers.
         - Contributed analytical work underpinning 13 peer-reviewed publications, including in Nature Communications, Molecular Cell, Nucleic Acids Research, and Bioinformatics.
-  - role: Doctoral Researcher
-    time: 2014 - 2018
-    company: Max Planck Institute for Molecular Biomedicine, Münster, Germany
-    details: |
+    - role: Doctoral Researcher
+      time: 2014 - 2018
+      company: Max Planck Institute for Molecular Biomedicine, Münster, Germany
+      details: |
         - Independently developed TransRefiner, a novel computational tool combining RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies, improving transcript reconstruction accuracy in non-model organisms beyond standard single-assay approaches.
         - Conducted large-scale sequencing data analyses supporting doctoral research and collaborative projects across the institute.
-  - role: Scientific Co-worker
-    time: 2012 - 2014
-    company: Institute of Reconstructive Neurobiology, Bonn, Germany
-    details: |
+    - role: Scientific Co-worker
+      time: 2012 - 2014
+      company: Institute of Reconstructive Neurobiology, Bonn, Germany
+      details: |
         - Built comparative analysis pipelines for multi-platform microarray datasets, enabling consistent cross-platform comparisons and robust cross-study validation.
 
 certifications:
   title: Professional Training
   list:
-  - name: Introduction to Metabolomics
-    start: 2023
-    end: 2023
-    organization: EMBL-EBI
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
-  - name: Analysis of High-Throughput Sequencing Data
-    start: 2014
-    end: 2014
-    organization: EMBL-EBI
-    credentialid:
-    credentialurl:
-    credentialname:
-    details: |
+    - name: Introduction to Metabolomics
+      start: 2023
+      end: 2023
+      organization: EMBL-EBI
+    - name: Analysis of High-Throughput Sequencing Data
+      start: 2014
+      end: 2014
+      organization: EMBL-EBI
 
 projects:
   title: Key Project Highlights
   intro: >
     Selected project highlights from my work at EMBL and MPI Münster.
   assignments:
-  - title: RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration
-    link: "#"
-    tagline: "EMBL, 2022-2024 — Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma. Published in Nature Communications (2024)."
+    - title: RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration
+      link: "#"
+      tagline: "EMBL, 2022-2024 — Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma. Published in Nature Communications (2024)."
 
-  - title: "ATP5A RNA Targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
-    link: "#"
-    tagline: "EMBL, 2023-2024 — Designed and executed the full bioinformatics analysis pipeline to uncover targets and sequence motifs in the 5' and 3' UTRs of ATP5A. Manuscript on bioRxiv (2024)."
+    - title: "ATP5A RNA Targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
+      link: "#"
+      tagline: "EMBL, 2023-2024 — Designed and executed the full bioinformatics analysis pipeline to uncover targets and sequence motifs in the 5' and 3' UTRs of ATP5A. Manuscript on bioRxiv (2024)."
 
-  - title: "DEWseq & htseq-clip | eCLIP/iCLIP Analysis Toolset"
-    link: "#"
-    tagline: "EMBL, 2019-2021 — Validated DEWseq and htseq-clip on real biological datasets; both tools published on Bioconductor/PyPI with 40+ citations and 10,000+ downloads."
+    - title: "DEWseq & htseq-clip | eCLIP/iCLIP Analysis Toolset"
+      link: "#"
+      tagline: "EMBL, 2019-2021 — Validated DEWseq and htseq-clip on real biological datasets; both tools published on Bioconductor/PyPI with 40+ citations and 10,000+ downloads."
 
-  - title: "TransRefiner | de novo Transcriptome Refinement Tool"
-    link: "#"
-    tagline: "MPI Münster, 2014-2018 — Independently designed and developed TransRefiner, integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms."
-
+    - title: "TransRefiner | de novo Transcriptome Refinement Tool"
+      link: "#"
+      tagline: "MPI Münster, 2014-2018 — Independently designed and developed TransRefiner, integrating RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms."
 
 publications:
   title: Selected Publications
   intro: |
     Full publication list available on request (13 peer-reviewed articles).
   papers:
-  - title: "Nucleic Acids Research (2026)"
-    link: "#"
-    authors: "Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T."
-    conference: "2026"
+    - title: "Nucleic Acids Research (2026)"
+      link: "#"
+      authors: "Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T."
+      conference: "2026"
 
-  - title: "RBP mechanisms in osteosarcoma — Nature Communications (2024)"
-    link: "#"
-    authors: "Zhou Y. et al., Sekaran T. et al."
-    conference: "2024"
+    - title: "RBP mechanisms in osteosarcoma — Nature Communications (2024)"
+      link: "#"
+      authors: "Zhou Y. et al., Sekaran T. et al."
+      conference: "2024"
 
-  - title: "DEWseq package publication — Bioinformatics (2023)"
-    link: "#"
-    authors: "Sahadevan S., Sekaran T. et al."
-    conference: "2023"
+    - title: "DEWseq package publication — Bioinformatics (2023)"
+      link: "#"
+      authors: "Sahadevan S., Sekaran T. et al."
+      conference: "2023"
 
-  - title: "Molecular Cell (2022)"
-    link: "#"
-    authors: "Huppertz I. et al., Sekaran T. et al."
-    conference: "2022"
+    - title: "Molecular Cell (2022)"
+      link: "#"
+      authors: "Huppertz I. et al., Sekaran T. et al."
+      conference: "2022"
 
 recommendations:
   title: Awards & Fellowships
   list:
-  - person: Distinguished Alumni Award
-    email:
-    phone:
-    role: Sathyabama University
-    recommendation: |
-      2021
-  - person: Max Planck Institute Fellowship
-    email:
-    phone:
-    role: MPI Münster
-    recommendation: |
-      2014 - 2018
-  - person: Train-Gain Fellowship
-    email:
-    phone:
-    role: University of Münster
-    recommendation: |
-      2014
-  - person: DBT Student Stipend
-    email:
-    phone:
-    role: Ministry of Science and Technology, India
-    recommendation: |
-      2007 - 2008
+    - person: Distinguished Alumni Award
+      role: Sathyabama University
+      recommendation: |
+        2021
+    - person: Max Planck Institute Fellowship
+      role: MPI Münster
+      recommendation: |
+        2014 - 2018
+    - person: Train-Gain Fellowship
+      role: University of Münster
+      recommendation: |
+        2014
+    - person: DBT Student Stipend
+      role: Ministry of Science and Technology, India
+      recommendation: |
+        2007 - 2008
 
 skills:
   title: Core Competencies
-
   programming_and_computational_tools:
     - R/Bioconductor
     - Python
