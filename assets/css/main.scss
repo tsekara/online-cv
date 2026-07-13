@@ -58,3 +58,33 @@ $sidebar-order: 2;
   float: none;
   display: block;
 }
+
+
+.projects-section .item {
+  margin-bottom: 1.5rem;
+}
+
+.projects-section .project-header {
+  margin-bottom: 0.4rem;
+}
+
+.projects-section .project-title {
+  font-weight: 600;
+  display: block;
+}
+
+.projects-section .project-tagline {
+  display: block;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+.projects-section .project-details ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.projects-section .project-details li {
+  margin-bottom: 0.35rem;
+}
