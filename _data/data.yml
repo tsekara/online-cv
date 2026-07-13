@@ -164,30 +164,14 @@ recommendations:
 
 skills:
   title: Core Competencies
-  categories:
-    - heading: Bioinformatics & Omics
-      items:
-        - RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq
-        - Multi-omics integration across transcriptomics, proteomics, eRIC and metabolomics
-        - RNA biology, post-transcriptional regulation, RNA–protein interactions
+  bullets:
+    - RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, transcriptomics, proteomics, eRIC and metabolomics
+    - R/Bioconductor, Python, Bash, DESeq2, ggplot2, statistical genomics
+    - STAR, featureCounts, Salmon, samtools, bedtools, htseq-clip, PureCLIP
+    - Snakemake, Nextflow, Docker, Singularity, Git, CI-oriented workflow development
+    - SLURM, Linux, Conda, Mamba, HPC environments
+    - Cross-functional collaboration with wet-lab scientists, mentoring, workshop tutoring, experimental design consultation
 
-    - heading: Programming & Analysis
-      items:
-        - R/Bioconductor, Python, Bash
-        - DESeq2, ggplot2, statistical genomics
-        - STAR, featureCounts, Salmon, samtools, bedtools, PureCLIP
-
-    - heading: Pipelines & Infrastructure
-      items:
-        - Snakemake, Nextflow, Docker, Singularity
-        - Git, reproducible workflows, CI-oriented development
-        - SLURM, Conda, Mamba, Linux/HPC environments
-
-    - heading: Scientific Leadership
-      items:
-        - Cross-functional collaboration with wet-lab scientists
-        - Experimental design consultation
-        - Workshop tutoring, student mentoring, project support
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
