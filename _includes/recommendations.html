@@ -11,11 +11,13 @@
 
   {% for recommendation in recommendations.list %}
   <div class="item">
-    <h3 class="recommendation-person">{{ recommendation.person }}</h3>
+    <div class="award-line">
+      <h3 class="recommendation-person">{{ recommendation.person }}</h3>
+      {% if recommendation.year %}
+      <span class="award-year">{{ recommendation.year }}</span>
+      {% endif %}
+    </div>
     <p><strong>{{ recommendation.role }}</strong></p>
-    {% if recommendation.year %}
-    <p>{{ recommendation.year }}</p>
-    {% endif %}
   </div>
   {% endfor %}
 </section>
