@@ -15,25 +15,37 @@ $sidebar-order: 2;
 @import "skins/{{ site.theme_skin | default: 'ceramic' }}"; // skin
 @import "default"; // main partials
 
-.skills-section .item,
-.projects-section .item,
-.recommendations-section .item,
-.publications-section .item {
-  width: 100%;
-  float: none;
-  display: block;
+.skills-section .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem 1.5rem;
 }
 
-.skills-section .section-title,
-.projects-section .section-title,
-.recommendations-section .section-title,
-.certifications-section .section-title,
-.publications-section .section-title {
-  margin-bottom: 15px;
+.skills-section .skill-card {
+  margin-bottom: 0;
+}
+
+.skills-section .level-title {
+  margin-bottom: 0.45rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.skills-section .resume-list {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.skills-section .resume-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.45;
+  text-align: left;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 .projects-section .project-details ul,
-.skills-section .resume-list,
 .recommendations-section .awards-list,
 .certifications-section .details ul,
 .experiences-section .details ul,
@@ -44,7 +56,6 @@ $sidebar-order: 2;
 }
 
 .projects-section .project-details li,
-.skills-section .resume-list li,
 .recommendations-section .awards-list li,
 .certifications-section .details li,
 .experiences-section .details li,
@@ -57,17 +68,9 @@ $sidebar-order: 2;
   overflow-wrap: break-word;
 }
 
-.skills-section .item,
-.projects-section .item {
-  margin-bottom: 1.5rem;
-}
-
-.skills-section .level-title {
-  margin-bottom: 0.45rem;
-}
-
-.skills-section .resume-list {
-  margin-top: 0;
+.projects-section .item,
+.skills-section .skill-card {
+  margin-bottom: 1.2rem;
 }
 
 .projects-section .project-header {
@@ -84,4 +87,10 @@ $sidebar-order: 2;
   color: #666;
   font-style: italic;
   margin-top: 0.15rem;
+}
+
+@media (max-width: 767px) {
+  .skills-section .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
