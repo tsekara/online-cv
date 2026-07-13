@@ -172,31 +172,19 @@ recommendations:
 
 skills:
   title: Core Competencies
-  
-  programming_and_computational_tools:
-    - name: R/Bioconductor, Python, Bash
-    - name: DESeq2, ggplot2
-    
-  ngs_tools:
-    - name: STAR, featureCounts, Salmon
-    - name: samtools, bedtools, htseq-clip, PureCLIP
-    
-  bioinformatics_pipeline_engineering:
-    - name: Snakemake, Nextflow, Docker
-    - name: Singularity, Git, CI/CD
-    
-  hpc_and_environment_managers:
-    - name: SLURM (Linux)
-    - name: Conda / Mamba
-    
-  multi_omics:
-    - name: RNA-seq, Ribo-seq, eCLIP, RIP-seq
-    - name: SLAM-seq, proteomics, eRIC, metabolomics
-    
-  scientific_collaboration:
-    - name: Cross-functional partnership with wet-lab scientists
-    - name: Experimental design consultation
-    - name: Workshop tutoring and student mentoring
+  toolset:
+    - name: Programming & Tools
+      level: R/Bioconductor, Python, Bash, DESeq2, ggplot2
+    - name: NGS Analysis
+      level: STAR, featureCounts, Salmon, samtools, bedtools, htseq-clip, PureCLIP
+    - name: Pipeline Engineering
+      level: Snakemake, Nextflow, Docker, Singularity, Git, CI/CD
+    - name: Environment & HPC
+      level: SLURM (Linux), Conda / Mamba
+    - name: Multi-Omics Modalities
+      level: RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, proteomics, eRIC, metabolomics
+    - name: Collaboration & Mentoring
+      level: Cross-functional wet-lab partnership, experimental design, student tutoring
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
