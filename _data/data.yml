@@ -106,8 +106,8 @@ certifications:
 
 projects:
   title: Key Project Highlights
-  intro: |
-    Selected projects demonstrating multi-omics analysis, tool validation, and independent computational method development.
+  intro: >
+    Selected project highlights from my work at EMBL and MPI Münster.
   assignments:
     - title: "RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration"
       tagline: "EMBL, 2022–2024"
@@ -169,8 +169,6 @@ skills:
 
 publications:
   title: Publications
-  intro: |
-    Full publication list available on request (13 peer-reviewed articles).
   papers:
     - title: "Gerritsen M., Ray P.S., Sekaran T., Schwarzl T., Hentze M.W., Kulozik A.E. (2026). Cross-contamination of commercial oligonucleotides with library-structured sequences. Nucleic Acids Research."
       link: "https://pubmed.ncbi.nlm.nih.gov/42165137/"
@@ -207,9 +205,5 @@ publications:
 
     - title: "Sekaran T., Thummer R.P., Edenhofer F. (2013). Exploring the Neural Reprogrammome using Bioinformatics Approaches. Journal of Stem Cell Research & Therapy."
       link: "https://doi.org/10.4172/2157-7633.1000146"
-
-    - title: "Additional PubMed-indexed publication under your author profile."
-      link: "https://pubmed.ncbi.nlm.nih.gov/?term=thileepan+sekaran&sort=date&size=20"
-
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
