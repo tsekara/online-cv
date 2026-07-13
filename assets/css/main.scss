@@ -66,3 +66,28 @@ $sidebar-order: 2;
   overflow-wrap: break-word;
 }
 
+.skills-section .item,
+.recommendations-section .item {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.skills-section ul,
+.recommendations-section ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 18px;
+}
+
+.skills-section .core-skills-list li,
+.recommendations-section .awards-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.skills-section,
+.recommendations-section {
+  .section-title {
+    margin-bottom: 15px;
+  }
+}
