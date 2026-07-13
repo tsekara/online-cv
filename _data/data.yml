@@ -128,55 +128,55 @@ publications:
   papers:
     - title: "Gerritsen M., Ray P.S., Sekaran T., Schwarzl T., Hentze M.W., Kulozik A.E. (2026). Cross-contamination of commercial oligonucleotides with library-structured sequences. Nucleic Acids Research."
       link: "https://pubmed.ncbi.nlm.nih.gov/42165137/"
-      conference: "2026"
+      
 
     - title: "Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T. (2026). Signal or noise? RNA-binding proteins and the challenges of binding site assignments. Nucleic Acids Research."
       link: "https://pubmed.ncbi.nlm.nih.gov/42130068/"
-      conference: "2026"
+      
 
     - title: "Noble M., Chatterjee A., Sekaran T., Schwarzl T., Hentze M.W. (2024). Cytosolic RNA binding of the mitochondrial TCA cycle enzyme MDH2. RNA."
       link: "https://pubmed.ncbi.nlm.nih.gov/38609156/"
-      conference: "2024"
+      
 
     - title: "Zhou Y., Ray P.S., Zhu J., Stein F., Rettel M., Sekaran T., et al. (2024). Systematic analysis of RNA-binding proteins identifies targetable therapeutic vulnerabilities in osteosarcoma. Nature Communications."
       link: "https://pubmed.ncbi.nlm.nih.gov/38561347/"
-      conference: "2024"
+      
 
     - title: "Varma E., Burghaus J., Schwarzl T., Sekaran T., Gupta P., et al. (2023). Translational control of Ybx1 expression regulates cardiac function in response to pressure overload in vivo. Basic Research in Cardiology."
       link: "https://pubmed.ncbi.nlm.nih.gov/37378715/"
-      conference: "2023"
+      
 
     - title: "Sahadevan S., Sekaran T., Ashaf N., Fritz M., Hentze M.W., Huber W., Schwarzl T. (2023). htseq-clip: a toolset for the preprocessing of eCLIP/iCLIP datasets. Bioinformatics."
       link: "https://pubmed.ncbi.nlm.nih.gov/36394253/"
-      conference: "2023"
+      
 
     - title: "Huppertz I., Perez-Perri J.I., Mantas P., Sekaran T., Schwarzl T., Russo F., et al. (2022). Riboregulation of Enolase 1 activity controls glycolysis and embryonic stem cell differentiation. Molecular Cell."
       link: "https://pubmed.ncbi.nlm.nih.gov/35709751/"
-      conference: "2022"
+      
 
     - title: "Sahadevan S., Sekaran T., Schwarzl T. (2022). A Pipeline for Analyzing eCLIP and iCLIP Data with Htseq-clip and DEWSeq. Methods in Molecular Biology."
       link: "https://pubmed.ncbi.nlm.nih.gov/34694610/"
-      conference: "2022"
+      
 
     - title: "Fraguas S., Cárcel S., Vivancos C., Molina M.D., Ginés J., Mazariegos J., Sekaran T., et al. (2021). CREB-binding protein (CBP) gene family regulates planarian survival and stem cell differentiation. Developmental Biology."
       link: "https://pubmed.ncbi.nlm.nih.gov/33774010/"
-      conference: "2021"
+      
 
     - title: "Wörsdörfer P., Bosen F., Gebhardt M., Russ N., Zimmermann K., Kessie D.K., Sekaran T., et al. (2017). Abrogation of Gap Junctional Communication in ES Cells Results in a Disruption of Primitive Endoderm Formation in Embryoid Bodies. Stem Cells."
       link: "https://pubmed.ncbi.nlm.nih.gov/27870307/"
-      conference: "2017"
+     
 
     - title: "Kadari A., Lu M., Li M., Sekaran T., Thummer R.P., Guyette N., et al. (2014). Excision of viral reprogramming cassettes by Cre protein transduction enables generation of safe transgene-free human induced pluripotent stem cells. Stem Cell Research."
       link: "https://pubmed.ncbi.nlm.nih.gov/24713299/"
-      conference: "2014"
+     
 
     - title: "Selvaraj V., Sekaran S., Dhanasekaran A., Warrier S. (2024). Stem cell differentiation and plasticity (review). Differentiation."
       link: "https://pubmed.ncbi.nlm.nih.gov/38437764/"
-      conference: "2024"
+     
 
     - title: "Sekaran T., Thummer R.P., Edenhofer F. (2013). Exploring the Neural Reprogrammome using Bioinformatics Approaches. Journal of Stem Cell Research & Therapy."
       link: "https://doi.org/10.4172/2157-7633.1000146"
-      conference: "2013"
+     
 
 recommendations:
   title: Awards & Fellowships
