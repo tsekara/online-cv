@@ -148,19 +148,11 @@ publications_footer:
 
 recommendations:
   title: Awards & Fellowships
-  list:
-    - person: Distinguished Alumni Award
-      role: Sathyabama University
-      year: "2021"
-    - person: Max Planck Institute Fellowship
-      role: MPI Münster
-      year: "2014 – 2018"
-    - person: Train-Gain Fellowship
-      role: University of Münster
-      year: "2014"
-    - person: DBT Student Stipend
-      role: Ministry of Science and Technology, India
-      year: "2007 – 2008"
+  bullets:
+    - Distinguished Alumni Award, Sathyabama University                           (2021)
+    - Max Planck Institute Fellowship, MPI Münster                                (2014–2018)
+    - Train-Gain Fellowship, University of Münster                                (2014)
+    - DBT Student Stipend, Ministry of Science and Technology, India              (2007–2008)
 
 skills:
   title: Core Competencies
