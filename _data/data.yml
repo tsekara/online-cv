@@ -106,22 +106,36 @@ certifications:
 
 projects:
   title: Key Project Highlights
+  intro: |
+    Selected projects demonstrating multi-omics analysis, tool validation, and independent computational method development.
   assignments:
-    - title: RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration
-      link: "#"
-      tagline: "EMBL, 2022–2024 — Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma, providing direct insight into potential therapeutic targets. Analysis published in Nature Communications (2024); work demonstrates direct translational relevance to oncology drug discovery."
+    - title: "RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration"
+      tagline: "EMBL, 2022–2024"
+      link: "https://pubmed.ncbi.nlm.nih.gov/38561347/"
+      details: |
+        - Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma, providing direct insight into potential therapeutic targets.
+        - Analysis published in Nature Communications (2024); work demonstrates direct translational relevance to oncology drug discovery.
 
     - title: "ATP5A RNA targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead"
+      tagline: "EMBL, 2023–2024"
       link: "#"
-      tagline: "EMBL, 2023–2024 — Designed and executed the full bioinformatics analysis pipeline to uncover the targets and their sequence motifs in the 5’ and 3’ UTRs of ATP5A, a gene implicated in mitochondrial function and cellular energy metabolism. Manuscript available on bioRxiv (2024); sole computational contributor, from raw data processing through motif discovery and figure generation."
+      details: |
+        - Designed and executed the full bioinformatics analysis pipeline to uncover the targets and their sequence motifs in the 5’ and 3’ UTRs of ATP5A, a gene implicated in mitochondrial function and cellular energy metabolism.
+        - Manuscript available on bioRxiv (2024); sole computational contributor, from raw data processing through motif discovery and figure generation.
 
     - title: "DEWseq & htseq-clip | eCLIP/iCLIP Analysis Toolset"
-      link: "#"
-      tagline: "EMBL, 2019–2021 — Validated DEWseq (sliding-window RBP target prediction) and htseq-clip (eCLIP/iCLIP preprocessing toolset) on real biological datasets, with testing and feedback that directly shaped the tools’ final design. Both tools are published on Bioconductor/PyPI with a combined 40+ citations and 10,000+ downloads, reflecting strong adoption across the RNA biology community."
+      tagline: "EMBL, 2019–2021"
+      link: "https://pubmed.ncbi.nlm.nih.gov/36394253/"
+      details: |
+        - Validated DEWseq (sliding-window RBP target prediction) and htseq-clip (eCLIP/iCLIP preprocessing toolset) on real biological datasets, with testing and feedback that directly shaped the tools’ final design.
+        - Both tools are published on Bioconductor/PyPI with a combined 40+ citations and 10,000+ downloads, reflecting strong adoption across the RNA biology community.
 
     - title: "TransRefiner | de novo Transcriptome Refinement Tool"
+      tagline: "MPI Münster, 2014–2018"
       link: "#"
-      tagline: "MPI Münster, 2014–2018 — Independently designed and developed TransRefiner, a computational tool that integrates RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes. Core methodology of PhD thesis; improved transcript reconstruction accuracy over standard single-assay assembly approaches."
+      details: |
+        - Independently designed and developed TransRefiner, a computational tool that integrates RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes.
+        - Core methodology of PhD thesis; improved transcript reconstruction accuracy over standard single-assay assembly approaches.
 
 
 recommendations:
