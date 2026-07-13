@@ -16,3 +16,19 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'ceramic' }}"; // skin
 @import "default"; // main partials
+
+.skills-section .core-skills-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.skills-section .core-skills-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  text-align: left;
+  white-space: normal;
+}
+
+.recommendations-section .item {
+  margin-bottom: 15px;
+}
