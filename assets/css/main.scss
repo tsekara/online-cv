@@ -68,30 +68,75 @@ $sidebar-order: 2;
 
 /* ---------- Key Project Highlights ---------- */
 
+.projects-section .item {
+  margin-bottom: 1.5rem;
+}
+
 .projects-section .project-header {
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.5rem;
 }
 
 .projects-section .project-title {
-  font-size: 1rem;
-  font-weight: 600;
   display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: inherit;
   margin-bottom: 0.15rem;
+}
+
+.projects-section .project-title a,
+.projects-section a.project-title {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: inherit;
+  text-decoration: none;
+}
+
+.projects-section .project-title a:hover,
+.projects-section a.project-title:hover {
+  text-decoration: underline;
 }
 
 .projects-section .project-tagline {
   display: block;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 500;
-  color: inherit;
+  line-height: 1.45;
+  color: #666;
   margin-top: 0.1rem;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.5rem;
   font-style: normal;
 }
 
 .projects-section .project-details {
   margin-top: 0;
 }
+
+.projects-section .project-details .resume-list,
+.projects-section .resume-list,
+.projects-section ul {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.projects-section .project-details li,
+.projects-section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  text-align: left;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.projects-section .project-details li:last-child,
+.projects-section li:last-child {
+  margin-bottom: 0;
+}
+
 
 /* ---------- Awards and Fellowships ---------- */
 
