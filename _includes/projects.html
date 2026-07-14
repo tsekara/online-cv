@@ -1,11 +1,10 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-project-diagram fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
@@ -13,20 +12,19 @@
   {% if projects.intro %}
   <div class="intro">
     <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
+  </div>
   {% endif %}
 
   {% for project in projects.assignments %}
   <div class="item">
-
     <div class="project-header">
-      <span class="project-title">
-        {% if project.link and project.link != "#" %}
-        <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
-        {% else %}
+      {% if project.link %}
+      <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="project-title">
         {{ project.title }}
-        {% endif %}
-      </span>
+      </a>
+      {% else %}
+      <span class="project-title">{{ project.title }}</span>
+      {% endif %}
 
       {% if project.tagline %}
       <span class="project-tagline">{{ project.tagline }}</span>
@@ -35,12 +33,14 @@
 
     {% if project.details %}
     <div class="project-details">
-      {{ project.details | markdownify }}
+      <ul class="resume-list">
+        {% for detail in project.details %}
+        <li>{{ detail }}</li>
+        {% endfor %}
+      </ul>
     </div>
     {% endif %}
-
-  </div><!--//item-->
+  </div>
   {% endfor %}
-
-</section><!--//section-->
+</section>
 {% endif %}
