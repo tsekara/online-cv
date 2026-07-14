@@ -57,8 +57,7 @@ $sidebar-order: 2;
 .experiences-section .details ul,
 .publications-section ul {
   margin: 0;
-  padding-left: 1.2rem;
-  max-width: 100%;
+  padding-left: 16px;
 }
 
 .skills-section .resume-list li,
@@ -67,8 +66,8 @@ $sidebar-order: 2;
 .certifications-section .details li,
 .experiences-section .details li,
 .publications-section li {
-  margin-bottom: 0.35rem;
-  line-height: 1.5;
+  margin-bottom: 8px;
+  line-height: 1.6;
   text-align: left;
   white-space: normal;
   word-break: normal;
