@@ -15,56 +15,34 @@ $sidebar-order: 2;
 @import "skins/{{ site.theme_skin | default: 'ceramic' }}"; // skin
 @import "default"; // main partials
 
-.skills-section .section-title,
-.projects-section .section-title,
-.recommendations-section .section-title,
-.certifications-section .section-title,
-.publications-section .section-title {
-  margin-bottom: 15px;
-}
+/* ---------- Consistent custom section alignment ---------- */
 
-.skills-section .item,
+.skills-section .skill-category,
 .projects-section .item,
 .recommendations-section .item,
+.certifications-section .item,
 .publications-section .item {
-  width: 100%;
-  float: none;
-  display: block;
-}
-
-.skills-section .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem 1.5rem;
-}
-
-.skills-section .skill-card {
-  margin-bottom: 0;
-}
-
-.skills-section .project-title {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0.45rem;
-  color: inherit;
+  margin-bottom: 1.25rem;
 }
 
 .skills-section .resume-list,
-.projects-section .project-details ul,
-.recommendations-section .awards-list,
-.certifications-section .details ul,
-.experiences-section .details ul,
+.projects-section .resume-list,
+.recommendations-section .resume-list,
+.certifications-section .resume-list,
+.publications-section .resume-list,
+.skills-section ul,
+.projects-section ul,
+.recommendations-section ul,
+.certifications-section ul,
 .publications-section ul {
   margin: 0;
-  padding-left: 14px;
+  padding-left: 16px;
 }
 
-.skills-section .resume-list li,
-.projects-section .project-details li,
-.recommendations-section .awards-list li,
-.certifications-section .details li,
-.experiences-section .details li,
+.skills-section li,
+.projects-section li,
+.recommendations-section li,
+.certifications-section li,
 .publications-section li {
   margin-bottom: 8px;
   line-height: 1.6;
@@ -74,22 +52,33 @@ $sidebar-order: 2;
   overflow-wrap: break-word;
 }
 
-.skills-section .resume-list {
-  margin-top: 0;
+.skills-section li:last-child,
+.projects-section li:last-child,
+.recommendations-section li:last-child,
+.certifications-section li:last-child,
+.publications-section li:last-child {
+  margin-bottom: 0;
 }
 
-.projects-section .item,
-.skills-section .skill-card {
-  margin-bottom: 1.2rem;
+/* ---------- Core Competencies ---------- */
+
+.skills-section .skill-category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+  color: inherit;
 }
 
-.projects-section .project-header {
-  margin-bottom: 0.4rem;
+.skills-section .level-title {
+  margin-bottom: 0.45rem;
 }
+
+/* ---------- Key Project Highlights ---------- */
 
 .projects-section .project-title {
-  font-weight: 400;
-  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
 }
 
 .projects-section .project-tagline {
@@ -97,10 +86,48 @@ $sidebar-order: 2;
   color: #666;
   font-style: italic;
   margin-top: 0.15rem;
+  margin-bottom: 0.45rem;
 }
 
+/* ---------- Awards and Fellowships ---------- */
+
+.recommendations-section .award-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+
+.recommendations-section .award-title {
+  font-weight: 600;
+}
+
+.recommendations-section .award-year {
+  white-space: nowrap;
+  color: #666;
+}
+
+/* ---------- Publications ---------- */
+
+.publications-section .publication-title,
+.publications-section .paper-title {
+  display: inline;
+  font-weight: 400;
+}
+
+/* ---------- Mobile ---------- */
+
 @media (max-width: 767px) {
-  .skills-section .skills-grid {
-    grid-template-columns: 1fr;
+  .recommendations-section .award-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .recommendations-section .award-year {
+    white-space: normal;
   }
 }
+
