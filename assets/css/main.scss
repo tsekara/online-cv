@@ -17,7 +17,7 @@ $sidebar-order: 2;
 
 /* ---------- Consistent custom section alignment ---------- */
 
-.skills-section .skill-category,
+.skills-section .item,
 .projects-section .item,
 .recommendations-section .item,
 .certifications-section .item,
@@ -62,31 +62,35 @@ $sidebar-order: 2;
 
 /* ---------- Core Competencies ---------- */
 
-.skills-section .skill-category-title {
-  font-size: 1rem;
+.skills-section strong {
   font-weight: 600;
-  margin-bottom: 0.45rem;
-  color: inherit;
-}
-
-.skills-section .level-title {
-  margin-bottom: 0.45rem;
 }
 
 /* ---------- Key Project Highlights ---------- */
 
+.projects-section .project-header {
+  margin-bottom: 0.45rem;
+}
+
 .projects-section .project-title {
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.2rem;
+  display: block;
+  margin-bottom: 0.15rem;
 }
 
 .projects-section .project-tagline {
   display: block;
-  color: #666;
-  font-style: italic;
-  margin-top: 0.15rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: inherit;
+  margin-top: 0.1rem;
   margin-bottom: 0.45rem;
+  font-style: normal;
+}
+
+.projects-section .project-details {
+  margin-top: 0;
 }
 
 /* ---------- Awards and Fellowships ---------- */
@@ -130,4 +134,3 @@ $sidebar-order: 2;
     white-space: normal;
   }
 }
-
