@@ -186,6 +186,9 @@ publications:
     - title: "Sahadevan S., Sekaran T., Schwarzl T. (2022). A Pipeline for Analyzing eCLIP and iCLIP Data with Htseq-clip and DEWSeq. Methods in Molecular Biology."
       link: "https://pubmed.ncbi.nlm.nih.gov/34694610/"
 
+    - title: "Riechert E, Kmietczyk V, Stein F, Schwarzl T, Sekaran T, Jürgensen L, Kamuf-Schenk V, Varma E, Hofmann C, Rettel M, Gür K, Ölschläger J, Kühl F, Martin J, Ramirez-Pedraza M, Fernandez M, Doroudgar S, Méndez R, Katus HA, Hentze MW, Völkers M (2021). Identification of dynamic RNA-binding proteins uncovers a Cpeb4-controlled regulatory cascade during pathological cell growth of cardiomyocytes. Cell Rep 35(6):109100."
+      link: "https://pubmed.ncbi.nlm.nih.gov/33979607/"
+
     - title: "Fraguas S., Cárcel S., Vivancos C., Molina M.D., Ginés J., Mazariegos J., Sekaran T., et al. (2021). CREB-binding protein (CBP) gene family regulates planarian survival and stem cell differentiation. Developmental Biology."
       link: "https://pubmed.ncbi.nlm.nih.gov/33774010/"
 
@@ -194,3 +197,7 @@ publications:
 
     - title: "Kadari A., Lu M., Li M., Sekaran T., Thummer R.P., Guyette N., et al. (2014). Excision of viral reprogramming cassettes by Cre protein transduction enables generation of safe transgene-free human induced pluripotent stem cells. Stem Cell Research."
       link: "https://pubmed.ncbi.nlm.nih.gov/24713299/"
+
+    - title: "Sekaran T, Thummer RP, Edenhofer F (2013). Exploring the Neural Reprogrammome using Bioinformatics Approaches. J Stem Cell Res Ther 3:146."
+      link: "https://doi.org/10.4172/2157-7633.1000146"
+
