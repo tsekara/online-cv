@@ -1,90 +1,128 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+---
+title: "Thileepan Sekaran"
+layout: page
+---
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+# Thileepan Sekaran
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+## Senior Bioinformatics Scientist
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+**Hentze Group, EMBL**  
+Meyerhofstrasse 1, 69117 Heidelberg, Germany  
 
-## Installation
+Email: [thileepan.sekaran@gmail.com](mailto:thileepan.sekaran@gmail.com)  
+Phone: +49 176 62337969  
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+_Last updated: July 2026_
 
-Change all the details from one place: `_data/data.yml`.
+---
 
-### To preview/edit locally with docker
+## Professional Summary
 
-```sh
-docker-compose up
-```
+Senior Bioinformatics Scientist with 15+ years of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across 35+ research projects. Core expertise spans RNA biology, post-transcriptional regulation, and RNA–protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+Developed TransRefiner, a tool for refining de novo transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined 40+ citations, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight.
 
-### Local machine
+Co-authored 13 peer-reviewed publications in journals including Nature Communications, Molecular Cell, and Nucleic Acids Research.
 
-* Get the repo into your machine 
+---
 
-```bash
-git clone https://github.com/sharu725/online-cv.git
-```
+## Core Competencies
 
-* Install required ruby gems
+- Programming & computational tools: R/Bioconductor, Python, Bash, DESeq2, ggplot2  
+- NGS tools: STAR, featureCounts, Salmon, samtools, bedtools, htseq-clip, PureCLIP  
+- Bioinformatics pipeline engineering: Snakemake, Nextflow, Docker, Singularity, Git, CI/CD  
+- HPC & environment managers: SLURM (Linux), Conda/Mamba  
+- Multi-omics: RNA-seq, Ribo-seq, eCLIP, RIP-seq, SLAM-seq, proteomics, eRIC, metabolomics  
+- Scientific collaboration: Cross-functional partnership with wet-lab scientists; experimental design consultation; workshop tutoring and student mentoring  
 
-```bash
-bundle install
-```
+---
 
-* Serve the site locally
+## Key Project Highlights
 
-```bash
-bundle exec jekyll serve
-```
+### RBP-Driven Mechanisms in Osteosarcoma | Multi-Omics Integration  
+*EMBL, 2018 – Present*
 
-* Navigate to `http://localhost:4000`
+- Led the bioinformatics integration of RNA-seq, proteomics, and eRIC data to identify clinically relevant RNA-binding protein-dependent mechanisms in osteosarcoma, providing direct insight into potential therapeutic targets.  
+- Analysis published in Nature Communications (2024), demonstrating direct translational relevance to oncology drug discovery.  
 
+### ATP5A RNA Targets and UTR Sequence Motif Discovery | Sole Bioinformatics Lead  
+*EMBL, 2023 – 2024*
 
-## Skins
+- Designed and executed the full bioinformatics analysis pipeline to uncover targets and sequence motifs in the 5′ and 3′ UTRs of ATP5A, a gene implicated in mitochondrial function and cellular energy metabolism.  
+- Manuscript available on bioRxiv (2024); sole computational contributor from raw data processing through motif discovery and figure generation.  
 
-There are 6 color schemes available:
+### DEWseq & htseq-clip | eCLIP/iCLIP Analysis Toolset  
+*EMBL, 2019 – 2024*
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+- Validated DEWseq (sliding-window RBP target prediction) and htseq-clip (eCLIP/iCLIP preprocessing toolset) on real biological datasets, providing testing and feedback that directly shaped the tools’ final design.  
+- Tools published on Bioconductor/PyPI with a combined 40+ citations and 10,000+ downloads, reflecting strong adoption across the RNA biology community.  
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+### TransRefiner | De Novo Transcriptome Refinement Tool  
+*Max Planck Institute Münster, 2014 – 2018*
 
-## Credits
+- Independently designed and developed TransRefiner, a computational tool that integrates RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies in non-model organisms lacking reference genomes.  
+- Core methodology of PhD thesis, improving transcript reconstruction accuracy over standard single-assay assembly approaches.  
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+---
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+## Professional Experience
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+### Senior Bioinformatics Scientist  
+*European Molecular Biology Laboratory (EMBL), 2018 – Present*
 
-## Star History
+- Designed and deployed Snakemake/Nextflow workflows for 35+ projects spanning RNA-seq, Ribo-seq, eCLIP, RIP-seq, and SLAM-seq, reducing multi-day HPC runtimes and standardising reproducible analysis across the institute.  
+- Led and contributed to projects from study design through publication, collaborating with wet-lab PIs, postdocs, and PhD students to ensure analysis-ready experimental outputs.  
+- Integrated transcriptomic, translatomic, eRIC, and proteomic datasets into unified multi-omics analyses, translating complex data into mechanistic biological insight that directly informed experimental follow-up.  
+- Built QC, alignment (STAR), quantification (featureCounts), and downstream statistical pipelines (DESeq2/ggplot2), delivering publication-ready results across diverse sequencing modalities.  
+- Applied and validated specialised RBP analysis tools (htseq-clip, DEWseq) on eCLIP datasets, contributing real-data testing and feedback that informed tool development as second author on two methods papers.  
+- Co-tutored PhD students on bioinformatics methods and analysis strategy in EMBL and MPI training workshops, teaching sequencing data analysis to students, staff scientists, and visiting researchers.  
+- Contributed analytical work underpinning 13 peer-reviewed publications, including in Nature Communications, Molecular Cell, Nucleic Acids Research, and Bioinformatics.  
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+### Doctoral Researcher  
+*Max Planck Institute Münster, 2014 – 2018*
 
+- Independently developed TransRefiner, a novel computational tool combining RNA-seq and Ribo-seq data to refine de novo transcriptome assemblies, improving transcript reconstruction accuracy in non-model organisms beyond standard single-assay approaches.  
+- Conducted large-scale sequencing data analyses supporting doctoral research and collaborative projects across the institute.  
+
+### Scientific Co-worker  
+*Institute of Reconstructive Neurobiology, University of Bonn, 2012 – 2014*
+
+- Built comparative analysis pipelines for multi-platform microarray datasets, enabling consistent cross-platform comparisons and robust cross-study validation.  
+
+---
+
+## Education
+
+- PhD in Biology, University of Münster, Germany (2014 – 2018)  
+- MSc in Life Science Informatics, University of Bonn, Germany (2009 – 2012)  
+- B.Tech. in Bioinformatics, Sathyabama University, India (2004 – 2008)  
+
+---
+
+## Awards & Fellowships
+
+- Distinguished Alumni Award, Sathyabama University (2021)  
+- Max Planck Institute Fellowship (2014 – 2018)  
+- Train-Gain Fellowship, University of Münster (2014)  
+- DBT Student Stipend, Ministry of Science and Technology, India (2007 – 2008)  
+
+---
+
+## Professional Training
+
+- Introduction to Metabolomics — EMBL-EBI (2023)  
+- Analysis of High-Throughput Sequencing Data — EMBL-EBI (2014)  
+
+---
+
+## Publications
+
+- Gerritsen M., Ray P.S., Sekaran T., Schwarzl T., Hentze M.W., Kulozik A.E. (2026). Cross-contamination of commercial oligonucleotides with library-structured sequences. *Nucleic Acids Research*.  
+- Sahadevan S., Sekaran T., Hentze M.W., Perez-Perri J.I., Schwarzl T. (2026). Signal or noise? RNA-binding proteins and the challenges of binding site assignments. *Nucleic Acids Research*.  
+- Noble M., Chatterjee A., Sekaran T., Schwarzl T., Hentze M.W. (2024). Cytosolic RNA binding of the mitochondrial TCA cycle enzyme MDH2. *RNA*.  
+- Zhou Y., Ray P.S., Zhu J., Stein F., Rettel M., Sekaran T., et al. (2024). Systematic analysis of RNA-binding proteins identifies targetable therapeutic vulnerabilities in osteosarcoma. *Nature Communications*.  
+- Varma E., Burghaus J., Schwarzl T., Sekaran T., Gupta P., et al. (2023). Translational control of Ybx1 expression regulates cardiac function in response to pressure overload in vivo. *Basic Research in Cardiology*.  
+- Sahadevan S., Sekaran T., Ashaf N., Fritz M., Hentze M.W., Huber W., Schwarzl T. (2023). htseq-clip: a toolset for the preprocessing of eCLIP/iCLIP datasets. *Bioinformatics*.  
+- Huppertz I., Perez-Perri J.I., Mantas P., Sekaran T., Schwarzl T., Russo F., et al. (2022). Riboregulation of Enolase 1 activity controls glycolysis and embryonic stem cell differentiation. *Molecular Cell*.  
+- Sahadevan S., Sekaran T., Schwarzl T. (2022). A pipeline 
