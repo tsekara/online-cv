@@ -49,9 +49,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior Bioinformatics Scientist with **15+ years** of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across **35+ research projects**. Core expertise spans RNA biology, post-transcriptional regulation, and RNA–protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.
-
-        Developed TransRefiner, a tool for refining *de novo* transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined **40+ citations**, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight. Co-authored **13 peer-reviewed publications** in Nature Communications, Molecular Cell, and Nucleic Acids Research.
+    Senior Bioinformatics Scientist with **15+ years** of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across **35+ research projects**. Core expertise spans RNA biology, post-transcriptional regulation, and RNA–protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.Developed TransRefiner, a tool for refining *de novo* transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined **40+ citations**, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight. Co-authored **13 peer-reviewed publications** in Nature Communications, Molecular Cell, and Nucleic Acids Research.
 
 education:
   title: Education
