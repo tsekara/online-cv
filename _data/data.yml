@@ -51,7 +51,7 @@ career-profile:
   summary: |
     Senior Bioinformatics Scientist with **15+ years** of experience in computational biology, including 8 years at EMBL delivering end-to-end multi-omics analyses across **35+ research projects**. Core expertise spans RNA biology, post-transcriptional regulation, and RNA–protein interactions — areas directly relevant to RNA therapeutics, target identification, and translational research.
 
-    Developed TransRefiner, a tool for refining *de novo* transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined **40+ citations**, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight. Co-authored **13 peer-reviewed publications** in Nature Communications, Molecular Cell, and Nucleic Acids Research.
+        Developed TransRefiner, a tool for refining *de novo* transcriptome assembly in non-model organisms using RNA-seq and Ribo-seq data, and validated DEWseq and htseq-clip (combined **40+ citations**, 10,000+ downloads) on eCLIP/iCLIP datasets as second author. Builds reproducible, HPC-optimised Snakemake and Nextflow pipelines and integrates transcriptomic, proteomic, and RBPome datasets to generate mechanistic, clinically relevant insight. Co-authored **13 peer-reviewed publications** in Nature Communications, Molecular Cell, and Nucleic Acids Research.
 
 education:
   title: Education
@@ -183,21 +183,20 @@ publications:
     - title: "Huppertz I., Perez-Perri J.I., Mantas P., Sekaran T., Schwarzl T., Russo F., et al. (2022). Riboregulation of Enolase 1 activity controls glycolysis and embryonic stem cell differentiation. Molecular Cell."
       link: "https://pubmed.ncbi.nlm.nih.gov/35709751/"
 
-    - title: "Sahadevan S., Sekaran T., Schwarzl T. (2022). A Pipeline for Analyzing eCLIP and iCLIP Data with Htseq-clip and DEWSeq. Methods in Molecular Biology."
+    - title: "Sahadevan S., Sekaran T., Schwarzl T. (2022). A pipeline for analyzing eCLIP and iCLIP data with htseq-clip and DEWSeq. Methods in Molecular Biology."
       link: "https://pubmed.ncbi.nlm.nih.gov/34694610/"
 
-    - title: "Riechert E, Kmietczyk V, Stein F, Schwarzl T, Sekaran T, Jürgensen L, Kamuf-Schenk V, Varma E, Hofmann C, Rettel M, Gür K, Ölschläger J, Kühl F, Martin J, Ramirez-Pedraza M, Fernandez M, Doroudgar S, Méndez R, Katus HA, Hentze MW, Völkers M (2021). Identification of dynamic RNA-binding proteins uncovers a Cpeb4-controlled regulatory cascade during pathological cell growth of cardiomyocytes. Cell Rep 35(6):109100."
+    - title: "Riechert E., Kmietczyk V., Stein F., Schwarzl T., Sekaran T., Jürgensen L., Kamuf-Schenk V., Varma E., Hofmann C., Rettel M., Gür K., Ölschläger J., Kühl F., Martin J., Ramirez-Pedraza M., Fernandez M., Doroudgar S., Méndez R., Katus H.A., Hentze M.W., Völkers M. (2021). Identification of dynamic RNA-binding proteins uncovers a Cpeb4-controlled regulatory cascade during pathological cell growth of cardiomyocytes. Cell Reports."
       link: "https://pubmed.ncbi.nlm.nih.gov/33979607/"
 
     - title: "Fraguas S., Cárcel S., Vivancos C., Molina M.D., Ginés J., Mazariegos J., Sekaran T., et al. (2021). CREB-binding protein (CBP) gene family regulates planarian survival and stem cell differentiation. Developmental Biology."
       link: "https://pubmed.ncbi.nlm.nih.gov/33774010/"
 
-    - title: "Wörsdörfer P., Bosen F., Gebhardt M., Russ N., Zimmermann K., Kessie D.K., Sekaran T., et al. (2017). Abrogation of Gap Junctional Communication in ES Cells Results in a Disruption of Primitive Endoderm Formation in Embryoid Bodies. Stem Cells."
+    - title: "Wörsdörfer P., Bosen F., Gebhardt M., Russ N., Zimmermann K., Kessie D.K., Sekaran T., et al. (2017). Abrogation of gap junctional communication in ES cells results in a disruption of primitive endoderm formation in embryoid bodies. Stem Cells."
       link: "https://pubmed.ncbi.nlm.nih.gov/27870307/"
 
     - title: "Kadari A., Lu M., Li M., Sekaran T., Thummer R.P., Guyette N., et al. (2014). Excision of viral reprogramming cassettes by Cre protein transduction enables generation of safe transgene-free human induced pluripotent stem cells. Stem Cell Research."
       link: "https://pubmed.ncbi.nlm.nih.gov/24713299/"
 
-    - title: "Sekaran T, Thummer RP, Edenhofer F (2013). Exploring the Neural Reprogrammome using Bioinformatics Approaches. J Stem Cell Res Ther 3:146."
+    - title: "Sekaran T., Thummer R.P., Edenhofer F. (2013). Exploring the neural reprogrammome using bioinformatics approaches. Journal of Stem Cell Research & Therapy."
       link: "https://doi.org/10.4172/2157-7633.1000146"
-
